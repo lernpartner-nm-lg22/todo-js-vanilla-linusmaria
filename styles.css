@@ -22,10 +22,13 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 }
 
-input, button {
+input,
+button {
   border-radius: 0.5em;
 }
-label, input {
+
+label,
+input {
   margin-bottom: 0.5rem;
   padding: 0.25em;
   display: block;
@@ -46,4 +49,7 @@ li {
   margin: 1rem 0;
   padding: 1rem;
   border: 1px solid #ccc;
+  &.done {
+    text-decoration: line-through;
+  }
 }
